@@ -266,7 +266,7 @@ body {
 }
 
 #top-content { background: blue; height: 64px; }
-#search, #login { background: yellow; }
+#search, #login { background: yellow; height: 64px; line-height: 64px; }
 
 
 
