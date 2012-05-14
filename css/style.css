@@ -268,9 +268,14 @@ body {
 #top-content { background: blue; height: 64px; }
 #search, #login { background: yellow; height: 64px; line-height: 64px; }
 
+#banner {
+    background:  purple;
+    height:  400px;
+    margin:  0 auto;
+    width: 1008px;
+}
 
-
-
+#inner-wrap { background: #eaeaea; }
 
 
 
