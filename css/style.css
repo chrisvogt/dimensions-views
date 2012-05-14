@@ -10,6 +10,8 @@
  * ==|== normalize ==========================================================
  */
 
+@import url('978grid.css'); /* Import the custom 978 grid framework, based on 960grid. */
+
 
 /* =============================================================================
    HTML5 display definitions
