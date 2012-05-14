@@ -265,8 +265,9 @@ body {
     width:  100%;
 }
 
-#top-content { background: blue; }
+#top-content { background: blue; height: 64px; }
 #search, #login { background: yellow; }
+
 
 
 
