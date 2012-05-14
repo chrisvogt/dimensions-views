@@ -26,13 +26,16 @@
   <title>Dimensions Starter Theme for ASP .NET MVC 3, Powered By the Spark View Engine</title>
   <meta name="description" content="${ Dimensions } is a starter theme for ASP .NET MVC 3 using the Spark View Engine. Dimensions contains the HTML5 Boilerplate.">
 
+
+  <meta name="author" content="humans.txt">
+
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=1008, initial-scale=1.0">
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
+  <link rel="stylesheet" media="all" href="css/978grid.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" media="all" href="grid-978.css">
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -42,20 +45,50 @@
   <script src="js/libs/modernizr-2.5.3.min.js"></script>
 
 </head>
-<body class="page-home">
+<body id="page-home">
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-  <header>
+  
+  <div class="wrap">
+  
+    <header id="page-top">
 
-  </header>
-  <div role="main">
+      <div id="top-bar">
+        <div id="top-content" class="container_12">
+          <div id="search" class="grid_3">
+            Search
+          </div><!-- end #search -->
+          <div id="login" class="grid_2 push_7">
+            Login
+          </div><!-- end #login -->
+        </div><!-- end #top-content -->
+      </div><!-- end #top-bar -->
 
-  </div>
-  <footer>
+      <div id="banner">
+        <div id="teaser">
 
-  </footer>
+        </div><!-- end #teaser -->
+        <div id="primary-nav">
 
+        </div><!-- end #primary-nav -->
+      </div><!-- end #banner -->
+
+    </header><!-- end #page-top -->
+    
+    <div id="inner-wrap" role="main">
+
+    </div><!-- end #inner-wrap -->
+
+  </div><!-- end #wrap -->
+
+  <footer id="foot-wrap">
+
+    <div id="upper-foot">
+
+    </div><!-- end upper-foot -->
+
+  </footer><!-- end #foot-wrap -->
 
   <!-- JavaScript at the bottom for fast page loading -->
 
