@@ -10,8 +10,6 @@
  * ==|== normalize ==========================================================
  */
 
-@import url('978grid.css'); /* Import the custom 978 grid framework, based on 960grid. */
-
 
 /* =============================================================================
    HTML5 display definitions
@@ -220,13 +218,55 @@ td { vertical-align: top; }
    Author: @artinreality
    ========================================================================== */
 
-/*
+/**
+ * Layout, Frame, and Viewport Styles
+ */
+
+ * { 
+   margin: 0;
+   padding: 0
+ }
+ 
+html, body { height: 100% }
+#wrap { min-height: 100%}
+
+#main {
+    overflow: hidden;
+    padding-bottom: 104px;
+    position: relative;
+    z-index: 12;
+}
+
+body:before {
+    content: "";
+    height: 100%;
+    float: left;
+    width: 0;
+    margin-top: -32767px
+}
+
+#page-foot {
+  margin-top: -104px;
+  position: relative;
+  height: 104px;
+}
+
+/**
  * Frame Elements
  */
 
+body {
+    background: #cecece;
+}
 
+#top-bar {
+    background: red;
+    height: 64px;
+    width:  100%;
+}
 
-
+#top-content { background: blue; }
+#search, #login { background: yellow; }
 
 
 
