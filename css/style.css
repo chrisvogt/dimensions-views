@@ -50,7 +50,7 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
    Links
    ========================================================================== */
 
-a { color: #00e; }
+a { color: #FF7E21; }
 a:visited { color: #551a8b; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
@@ -338,7 +338,14 @@ body {
     height:  208px
 }
 
+/*
+ * Typography
+ */
 
+#copyr p {
+    font-size:  0.750em;
+    color:  #cecece;
+}
 
 
 /* ==|== media queries ======================================================
