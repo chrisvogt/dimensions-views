@@ -265,8 +265,16 @@ body {
     width:  100%;
 }
 
-#top-content { background: blue; height: 64px; }
-#search, #login { background: yellow; height: 64px; line-height: 64px; }
+#top-content {
+    background: blue;
+    height: 64px;
+}
+
+#search, #login {
+    background: yellow;
+    height: 64px;
+    line-height: 64px;
+}
 
 #banner {
     background:  purple;
@@ -283,6 +291,16 @@ body {
     position: absolute;
     bottom: 24px;
 }
+
+    #primary-nav ul {
+        list-style:  none;
+    }
+
+    #primary-nav li {
+        float:  left;
+        padding:  0 24px;
+        line-height:  32px;
+    }
 
 #inner-wrap {
     background: #eaeaea;
