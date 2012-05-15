@@ -429,6 +429,30 @@ body {
     background: url('../img/logos/html5.png');
 }
 
+#login a {
+    display: block;
+    background:  url('../img/sprite-login.png');
+    width: 96px;
+    height: 34px;
+    margin-top: 15px;
+    float: right;
+}
+
+#login a:hover {
+    background-position: 0 -34px;
+}
+
+    #login a:hover span {
+        color: #333;
+    }
+
+#login span {
+    float: right;
+    line-height: 34px;
+    margin-right: 18px;
+    font-size: .875em;
+}
+
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.
