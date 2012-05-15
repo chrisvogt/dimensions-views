@@ -277,7 +277,6 @@ body {
 }
 
 #search, #login {
-    background: yellow;
     height: 64px;
     line-height: 64px;
 }
@@ -382,6 +381,43 @@ body {
 #sidebar {
     text-align: center;
 }
+
+/*
+ * Elements & Forms
+ */
+
+#search form {
+    height: 34px;
+    margin: 15px 0;
+}
+
+#search #s {
+    width: 160px;
+    height: 34px;
+    color: #cecece;
+    border: none;
+    margin: 0;
+    padding: 0 7px;
+    background:  url('../img/sprite-search.png');
+    float: left
+}
+
+#search #go {
+    background:  url('../img/sprite-search.png') -174px 0;
+    float: left;
+    border: none;
+    width: 34px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+}
+
+#search #s:focus {  outline: none; }
+
+    #search #go:hover {
+        background-position: -174px -34px;
+    }
 
 
 /* ==|== media queries ======================================================
