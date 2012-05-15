@@ -275,8 +275,13 @@ body {
     width: 1008px;
 }
 
-#inner-wrap { background: #eaeaea; }
-
+#inner-wrap {
+    background: #eaeaea;
+    height:  400px; /* TODO: Fix this temporary placeholder */          
+}
+#content {
+    height:  100%;
+}
 
 
 
