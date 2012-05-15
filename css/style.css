@@ -327,7 +327,7 @@ body {
 }
 
 #foot-wrap {
-    background:  #333;
+    background:  url('../img/grad-footwrap.png') repeat-x;
     height:  208px
 }
 
