@@ -325,13 +325,13 @@ body {
 }
 
 #upper-foot {
-    width: 726px;
-    height:  64px;
-    background:  orange;
+    width: 748px;
+    height:  81px;
+    background:  url('../img/pane-topfoot.png') no-repeat;
     position:  absolute;
     left:  50%;
     margin-left:  -363px;
-    margin-top: -32px
+    margin-top: -48px
 }
 
 #copyr {
