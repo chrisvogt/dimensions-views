@@ -256,7 +256,7 @@ body:before {
  */
 
 body {
-    background: #cecece;
+    background: url('../img/lghtmesh.png') repeat;
 }
 
 #top-bar {
