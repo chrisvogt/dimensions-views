@@ -285,8 +285,8 @@ body {
 }
 
 #primary-nav {
-    background: green;
-    height: 32px;
+    background: url('../img/grad-primnav.png') repeat-x;
+    height: 48px;
     width:  100%;
     position: absolute;
     bottom: 38px;
@@ -299,7 +299,7 @@ body {
     #primary-nav li {
         float:  left;
         padding:  0 18px;
-        line-height:  32px;
+        line-height:  48px;
     }
 
 #inner-wrap {
