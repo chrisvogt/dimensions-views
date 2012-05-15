@@ -395,6 +395,7 @@ body {
     width: 160px;
     height: 34px;
     color: #cecece;
+    font-size: .875em;
     border: none;
     margin: 0;
     padding: 0 7px;
@@ -418,6 +419,15 @@ body {
     #search #go:hover {
         background-position: -174px -34px;
     }
+
+#upper-foot {
+    text-align: center;
+}
+    
+#upper-foot #html5 {
+    margin-top: 20px;
+    background: url('../img/logos/html5.png');
+}
 
 
 /* ==|== media queries ======================================================
