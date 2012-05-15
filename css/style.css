@@ -288,11 +288,22 @@ body {
     background: #eaeaea;
     height:  400px; /* TODO: Fix this temporary placeholder */          
 }
+
 #content {
     height:  100%;
 }
 
+#upper-foot {
+    width: 726px;
+    height:  64px;
+    background: orange;
+    margin: -32px auto 0;
+}
 
+#copyr {
+    text-align:  center;
+    margin-top:  24px;
+}
 
 
 
