@@ -273,6 +273,15 @@ body {
     height:  400px;
     margin:  0 auto;
     width: 1008px;
+    position:  relative;
+}
+
+#primary-nav {
+    background: green;
+    height: 32px;
+    width:  100%;
+    position: absolute;
+    bottom: 24px;
 }
 
 #inner-wrap {
