@@ -277,10 +277,10 @@ body {
 }
 
 #banner {
-    background:  purple;
-    height:  400px;
+    background:  url('../img/pane-banner.png');
+    height:  392px;
     margin:  0 auto;
-    width: 1008px;
+    width: 978px;
     position:  relative;
 }
 
@@ -289,7 +289,7 @@ body {
     height: 32px;
     width:  100%;
     position: absolute;
-    bottom: 24px;
+    bottom: 38px;
 }
 
     #primary-nav ul {
