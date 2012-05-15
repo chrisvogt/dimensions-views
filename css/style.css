@@ -11,6 +11,7 @@
  */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
 
 
 /* =============================================================================
@@ -299,6 +300,7 @@ body {
 
     #primary-nav ul {
         list-style:  none;
+        margin-left: 8px;
     }
 
     #primary-nav li {
@@ -370,7 +372,26 @@ body {
     color:  #cecece;
 }
 
+#primary-nav {
+    font-family: 'Bree Serif', serif;
+}
+
+    #primary-nav a {
+        text-decoration: none;
+        color: #333333
+    }
+
+        #primary-nav a:hover { color: #FF7E21; }
+
+#content h2 {
+    font-family: 'Bree Serif', serif;
+    font-weight:  normal;
+}
+
     #content p {
+        font-family: 'Bree Serif', serif;
+        color: #555;
+        font-size: .875em;
         margin-top: 8px;
         text-align:  justify;
         padding:  0 18px
@@ -381,6 +402,14 @@ body {
 #sidebar {
     text-align: center;
 }
+
+#copyr a {
+    text-decoration: none;
+}
+
+    #copyr a:hover {
+        color: #989898
+    }
 
 /*
  * Elements & Forms
@@ -451,6 +480,7 @@ body {
     line-height: 34px;
     margin-right: 18px;
     font-size: .875em;
+    color: #cecece;
 }
 
 
