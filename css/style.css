@@ -348,6 +348,24 @@ body {
  * Typography
  */
 
+#teaser h1 {
+    font-size: 3em;
+    color:  #efefef;
+    text-align: center;
+    padding-top: 84px
+}
+
+#teaser span.teal { color: #45A5AD; }
+#teaser span.orange { color: #FF7E21; }
+
+#teaser p#tagline {
+    text-align: center;
+    color: #cecece;
+    font-size: 1.5em;
+    line-height: 1.24em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 #copyr p {
     font-size:  0.750em;
     color:  #cecece;
