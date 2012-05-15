@@ -303,12 +303,19 @@ body {
     }
 
 #inner-wrap {
-    background: #eaeaea;
-    height:  400px; /* TODO: Fix this temporary placeholder */          
+    height:  400px; /* TODO: Fix this temporary placeholder */
+    margin-top:  -17px
 }
 
 #content {
     height:  100%;
+    padding-top: 18px;
+}
+
+#sidebar {
+    background:  url('../img/grad-rcol306.png') repeat-y;
+    height:  400px;
+    padding-top:  18px
 }
 
 #upper-foot {
