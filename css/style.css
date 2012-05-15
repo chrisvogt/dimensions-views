@@ -260,13 +260,13 @@ body {
 }
 
 #top-bar {
-    background: red;
+    background: url('../img/grad-topbar.png') repeat-x;
+    border-bottom: 2px solid #FF7E21;
     height: 64px;
     width:  100%;
 }
 
 #top-content {
-    background: blue;
     height: 64px;
 }
 
