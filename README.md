@@ -5,7 +5,7 @@ Dimensions is a free, static HTML view to use as a starter for your next project
 
 ## Screenshot
 
-![Dimensions screenshot](https://github.com/artinreality/dimensions-views/blob/master/apple-touch-icon-precomposed.png)
+![Dimensions screenshot](https://github.com/artinreality/dimensions-views/raw/master/dimensions-screenshot.png)
 
 
 ## Quick start
