@@ -2,6 +2,7 @@
 
 Dimensions is a free, static HTML view to use as a starter for your next project.
 
+[View Online Demo](http://chrisvogt.github.io/dimensions-views/index.html)
 
 ## Screenshot
 
